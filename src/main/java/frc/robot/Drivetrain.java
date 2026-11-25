@@ -22,10 +22,10 @@ public class Drivetrain {
         private final Translation2d m_backLeftLocation = new Translation2d(-0.381, 0.381);
         private final Translation2d m_backRightLocation = new Translation2d(-0.381, -0.381);
 
-        private final SwerveModule m_frontLeft = new SwerveModule(56, 55, 50, 0.943115, false);
-        private final SwerveModule m_frontRight = new SwerveModule(42, 41, 40, 0.669678, false);
-        private final SwerveModule m_backLeft = new SwerveModule(32, 31, 30, 0.012207, false);
-        private final SwerveModule m_backRight = new SwerveModule(12, 11, 10, 0.441162, false);
+        private final SwerveModule m_frontLeft = new SwerveModule(56, 55, 50, 0.054199, true);
+        private final SwerveModule m_frontRight = new SwerveModule(42, 41, 40, 0.331055, true);
+        private final SwerveModule m_backLeft = new SwerveModule(32, 31, 30, 0.988037, true);
+        private final SwerveModule m_backRight = new SwerveModule(12, 11, 10, 0.557129, true);
 
         private final Pigeon2 m_gyro = new Pigeon2(4);
 

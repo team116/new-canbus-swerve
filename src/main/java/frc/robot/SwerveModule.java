@@ -46,6 +46,9 @@ public class SwerveModule {
 
     // Configure Steer Motor
     SparkMaxConfig steerConfig = new SparkMaxConfig();
+    
+    steerConfig.inverted(true);
+
     steerConfig.encoder
         .positionConversionFactor(ModuleConstants.kSteerEncoderRot2Rad)
         .velocityConversionFactor(ModuleConstants.kSteerEncoderRPM2RadPerSec);
